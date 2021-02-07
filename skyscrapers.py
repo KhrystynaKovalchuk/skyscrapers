@@ -1,5 +1,6 @@
 """
 https://github.com/KhrystynaKovalchuk/skyscrapers
+Module for a game with skyscrapers.
 """
 def read_input(path: str):
     """
@@ -43,7 +44,6 @@ def left_to_right_check(input_line: str, pivot: int):
         return True
     return False
 
-# print(left_to_right_check("5124531", 5))
 
 def right_to_left_check(input_line: str, pivot: int):
     """
